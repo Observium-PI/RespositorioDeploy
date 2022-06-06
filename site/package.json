@@ -1,11 +1,12 @@
 {
-  "name": "projeto-acquatec",
+  "name": "projeto-observium",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon --exec node app.js",
+    "start": "node ./site/app.js",
+    "pastinstall": "cd site && npm install",
+    "dev": "nodemon --exec node ./site/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Feito pelos desenvolvedores @ Bandtec Digital School",
