@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./site/app.js",
-    "postinstall": "cd site && npm install",
+    "postinstall": "cd /home/runner/work/RespositorioDeploy/site && npm install",
     "dev": "nodemon --exec node ./site/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
